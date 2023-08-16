@@ -1,15 +1,15 @@
 const reverseString = function (word) {
-  //   let splitWord = word.split("");
-  //   let reverseWord = splitWord.reverse();
-  //   let finalString = reverseWord.join("");
+  let finalString = word.split("").reverse().join("");
 
-  let finalString = "";
+  let final = word.split("");
+  final = final.reverse();
+  final = final.join("");
 
-  for (let i = word.length - 1; i >= 0; i--) {
-    finalString += word[i];
-  }
+  // for (let i = word.length - 1; i >= 0; i--) {
+  //   finalString += word[i];
+  // }
 
-  return finalString;
+  return final;
 };
 
 // Do not edit below this line
